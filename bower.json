@@ -1,0 +1,21 @@
+{
+  "name": "dino-ipsum",
+  "description": "A simple project using a simple API",
+  "main": "gulpfile.js",
+  "authors": [
+    "Joe Parsley and David Rolfs"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "moment": "^2.18.1"
+  }
+}
