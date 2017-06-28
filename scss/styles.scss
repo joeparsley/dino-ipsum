@@ -5,3 +5,55 @@
 @import "layouts/main";
 @import "typography/main";
 @import "themes/main";
+
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  h2 {
+    font-size: 30px;
+    color: orange;
+    text-shadow: 2px 2px 4px black;
+    margin: 10px;
+    text-align: center;
+  }
+
+  form {
+    margin-top: 50px;
+    text-align: center;
+
+    input{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      background-color: yellow;
+      font-size: 20px;
+      border: 2px solid #666;
+    }
+
+    button {
+      margin-left: 40px;
+      padding: 12px;
+      background-color: orange;
+      border-radius: 5px;
+      border: 4px outset lime;
+      font-size: 18px;
+      color: white;
+      text-shadow: 1px 1px 1px black;
+    }
+  }
+
+  .output {
+    margin-top: 50px;
+    align-self: center;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: .5px;
+  }
+
+}
